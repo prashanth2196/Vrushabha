@@ -1,0 +1,273 @@
+<div
+  class="hero-wrap js-fullheight"
+  style="background-image: url(assets/images/vrushubha/img_4_2x.png)"
+  data-stellar-background-ratio="0.5"
+>
+  <div class="overlay"></div>
+  <div class="container-fluid">
+    <div
+      class="row no-gutters slider-text js-fullheight align-items-center justify-content-start"
+      data-scrollax-parent="true"
+    >
+      <div class="col-md-12" data-aos="fade-in">
+        <h1 class="ml-5 w-hed" style="padding-top: 3em">LOREM IPSUM</h1>
+        <h1 class="ml-5 w-hed">DOLOR SIT AMET</h1>
+        <h5 class="ml-5 subheading">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </h5>
+        <p class="ml-5">
+          <a [routerLink]="" class="btn btn-white">Learn More</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="ftco-section bg-light">
+  <div class="container">
+    <div class="row justify-content-center pb-5 mb-3">
+      <div class="col-md-12 heading-section text-center" data-aos="fade-down">
+        <h2 class="samarkan v">About <span>V</span>rushabha</h2>
+      </div>
+    </div>
+    <div class="row no-gutters">
+      <div class="col-md-6 wrap-about" data-aos="fade-down">
+        <div
+          class="img img-2 mb-4"
+          style="background-image: url(assets/images/vrushubha/img_4_22_2x.png)"
+        ></div>
+      </div>
+      <div class="col-md-6 wrap-about">
+        <div class="pl-md-5 about-body">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.
+          </p>
+          <p>
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="ftco-section bg-light">
+  <div class="container">
+    <div class="row justify-content-center pb-5 mb-3">
+      <div class="col-md-12 heading-section text-center" data-aos="fade-down">
+        <h2 class="samarkan v">Attraction Around <span>V</span>rushabha</h2>
+      </div>
+    </div>
+    <owl-carousel
+      [options]="carouselOptions"
+      [items]="images"
+      [carouselClasses]="['owl-theme', 'row', 'sliding']"
+    >
+      <div class="row d-flex item" *ngFor="let image of images; let i = index">
+        <div class="col-md-12 d-flex" data-aos="fade-down">
+          <div class="blog-entry attraction-body align-self-stretch">
+            <div class="newsCard news-Slide-up">
+              <a
+                class="block-20 rounded"
+                style="background-image: url(assets/images/vrushubha/img_5.png)"
+              >
+              </a>
+              <div class="newsCaption">
+                <h2 class="newsCaption-title">Hebbe Falls</h2>
+                <p class="newsCaption-content"> is about 65 km away from the Vrushabha Homestay. This waterfalls is inside a coffee estate. Hebbe Falls gushes down from a height of 551 ft. in two stages to form Dodda Hebbe (Big Falls) and Chikka Hebbe (Small Falls.) The option of trekking is available, but the place is filled with leeches especially in the rainy season.</p>
+              </div>
+            </div>
+            <div class="text p-3 text-center">
+              <h3 class="heading">Mullayanagiri Peak - 22 Kms</h3>
+            </div>
+          </div>
+        </div>
+        <!-- <img class="slide-image" src="{{ image.image }}" />
+        <div class="slide-text">
+          <h4>{{ image.text }}</h4>
+        </div> -->
+      </div>
+    </owl-carousel>
+    <!-- <div class="row d-flex">
+      <div class="col-md-4 d-flex" data-aos="fade-down">
+        <div class="blog-entry attraction-body align-self-stretch">
+          <a
+            class="block-20 rounded"
+            style="background-image: url(assets/images/vrushubha/img_5.png)"
+          >
+          </a>
+          <div class="text p-3 text-center">
+            <h3 class="heading">Mullayanagiri Peak - 22 Kms</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex" data-aos="fade-down">
+        <div class="blog-entry align-self-stretch">
+          <a
+            class="block-20 rounded"
+            style="background-image: url(assets/images/vrushubha/img_5.png)"
+          >
+          </a>
+          <div class="text p-3 text-center">
+            <h3 class="heading">Mullayanagiri Peak - 22 Kms</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex" data-aos="fade-down">
+        <div class="blog-entry align-self-stretch">
+          <a
+            class="block-20 rounded"
+            style="background-image: url(assets/images/vrushubha/img_5.png)"
+          >
+          </a>
+          <div class="text p-3 text-center">
+            <h3 class="heading">Mullayanagiri Peak - 22 Kms</h3>
+          </div>
+        </div>
+      </div>
+    </div> -->
+  </div>
+</section>
+<section class="ftco-section bg-light failities">
+  <div class="container">
+    <div class="row justify-content-center pb-5 mb-3">
+      <div class="col-md-12 heading-section text-center" data-aos="fade-down">
+        <h2 class="samarkan v"><span>V</span>rushabha Facilities</h2>
+      </div>
+    </div>
+    <div class="col-11 row m-a d-flex">
+      <div class="col-md-3 d-flex" data-aos="fade-down">
+        <div class="blog-entry-failities align-self-stretch">
+          <a
+            class="img"
+            style="background-image: url(assets/images/vrushubha/food_icon.svg)"
+          >
+          </a>
+          <div class="text p-3 text-center">
+            <p>Food on Order</p>
+            <div class="underscore"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 d-flex" data-aos="fade-down">
+        <div class="blog-entry-failities align-self-stretch">
+          <a
+            class="img"
+            style="
+              background-image: url(assets/images/vrushubha/washing_icon.svg);
+            "
+          >
+          </a>
+          <div class="text p-3 text-center">
+            <p>Laundry Service</p>
+            <div class="underscore"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 d-flex" data-aos="fade-down">
+        <div class="blog-entry-failities align-self-stretch">
+          <a
+            class="img"
+            style="
+              background-image: url(assets/images/vrushubha/telephon_icon.svg);
+            "
+          >
+          </a>
+          <div class="text p-3 text-center">
+            <p>Telephone</p>
+            <div class="underscore"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 d-flex" data-aos="fade-down">
+        <div class="blog-entry-failities align-self-stretch">
+          <a
+            class="img"
+            style="background-image: url(assets/images/vrushubha/plus_icon.svg)"
+          >
+          </a>
+          <div class="text p-3 text-center">
+            <p>Doctor on call</p>
+            <div class="underscore"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="ftco-section bg-light">
+  <div class="container">
+    <div class="row justify-content-center pb-5 mb-3">
+      <div class="col-md-12 heading-section text-center" data-aos="fade-down">
+        <h2 class="samarkan v">Gallery of <span>V</span>rushabha</h2>
+      </div>
+    </div>
+
+    <owl-carousel
+      [options]="carouselOptions"
+      [items]="images"
+      [carouselClasses]="['owl-theme', 'row', 'sliding']"
+    >
+      <div class="row d-flex item" *ngFor="let image of images; let i = index">
+        <div class="col-md-12 d-flex" data-aos="fade-down">
+          <div class="blog-entry gallery-body align-self-stretch">
+            <a
+              class="block-20 rounded"
+              style="background-image: url(assets/images/vrushubha/img_5.png)"
+            >
+            </a>
+          </div>
+        </div>
+        <!-- <img class="slide-image" src="{{ image.image }}" />
+        <div class="slide-text">
+          <h4>{{ image.text }}</h4>
+        </div> -->
+      </div>
+    </owl-carousel>
+  </div>
+</section>
+<section class="ftco-section bg-light contact">
+  <div class="container">
+    <div class="row justify-content-center pb-2 mb-3">
+      <div class="col-md-12 heading-section text-center" data-aos="fade-down">
+        <h2 class="samarkan v">Contact <span>V</span>rushabha</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-4 row pl-5">
+        <div class="col-3">
+          <a
+            class="contact img"
+            style="background-image: url(assets/images/vrushubha/call_icon.svg)"
+          ></a>
+        </div>
+        <div class="col-9 row">
+          <div class="col-12">+91 974 266 7338</div>
+          <div class="col-12">+91 973 998 0704</div>
+        </div>
+      </div>
+      <div class="col-8 row">
+        <div class="col-3">
+          <a
+            class="address img"
+            style="
+              background-image: url(assets/images/vrushubha/location_icon.svg);
+            "
+          ></a>
+        </div>
+        <div class="col-9 row">
+          <div class="col-9">
+            Vrushabha Home Stay Santhaveri Road, Heddarahalli, Kaimara,
+            Chikkamagaluru - 577101
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,121 @@
+.js-fullheight {
+    height: 80vh;
+}
+.subheading {
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    width: 50vw;
+    padding-top: 0.5em;
+}
+.hero-wrap .slider-text h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Playfair Display", serif;
+    line-height: 1.3;
+}
+.btn {
+    color: #EA6625;
+}
+.v span {
+    color: #EA6625;
+}
+.samarkan {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Samarkan Oblique';
+}
+.wrap-about .img-2 {
+    height: 325px;
+    border-radius: 18px;
+}
+.about-body {
+    margin-top: 8%;
+}
+.attraction-body,
+.gallery-body {
+    border-bottom: #EA6625 solid 6px;
+}
+.ftco-section {
+    padding: 2em 0;
+    position: relative;
+}
+.gallery-body {
+    width: 100%;
+}
+failities .blog-entry-failities {
+    background: transparent;
+    margin: auto;
+}
+.failities .img {
+    display: block;
+    height: 48px;
+    width: 66px;
+    margin: 2em 4em 0.5em;
+}
+.failities .underscore {
+  content: "";
+  position: relative;
+  width: 50%;
+  margin: auto;
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  visibility: visible;
+  background-color: #EA6625;
+  transform: scaleX(0.8);
+}
+.contact.img{
+  display: block;
+  height: 42px;
+  width: 39px;
+  margin-left: 63%;
+}
+.address.img {
+  display: block;
+  height: 54px;
+  width: 39px;
+  margin-left: 54%;
+}
+
+.newsCard {
+  position: relative;
+}
+
+.newsCaption {
+  visibility: hidden;
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  opacity: .6;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  background-color: #000;
+  color: #FFF;
+  padding: 15px;
+  opacity: 0;
+  -webkit-transform: translateY(80%);
+          transform: translateY(80%);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: opacity 0.1s 0.3s, -webkit-transform 0.4s;
+  transition: opacity 0.1s 0.4s, -webkit-transform 0.8s;
+  transition: transform 0.8s, opacity 0.1s 0.3s;
+  transition: transform 0.8s, opacity 0.1s 0.3s, -webkit-transform 0.4s;
+}
+
+.news-Slide-up:hover .newsCaption {
+  visibility: visible;
+  opacity: .5;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  -webkit-transition: opacity 0.1s, -webkit-transform 0.4s;
+  transition: opacity 0.1s, -webkit-transform 0.8s;
+  transition: transform 0.8s, opacity 0.1s;
+  transition: transform 0.8s, opacity 0.1s, -webkit-transform 0.4s;
+}

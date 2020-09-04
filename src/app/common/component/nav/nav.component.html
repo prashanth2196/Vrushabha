@@ -1,0 +1,21 @@
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light" id="ftco-navbar">
+  <div class="row">
+    <div class="col-12 org-baground"></div>
+    <div class="col-12 container-fluid" style="height:9rem;">
+      <a class="navbar-brand img logo" style="background-image: url(assets/images/vrushubha/logo.svg);" href="index.html"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fa fa-bars"></span> Menu
+      </button>
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link"[ngClass]="{'active':selection == 1}" (click)="selection=1">HOME</a></li>
+          <li class="nav-item"><a class="nav-link"[ngClass]="{'active':selection == 2}" (click)="selection=2">ABOUT US</a></li>
+          <li class="nav-item"><a class="nav-link"[ngClass]="{'active':selection == 3}" (click)="selection=3">ATTRACTIONS</a></li>
+          <li class="nav-item"><a class="nav-link"[ngClass]="{'active':selection == 4}" (click)="selection=4">FACILITIES</a></li>
+          <li class="nav-item"><a class="nav-link"[ngClass]="{'active':selection == 5}" (click)="selection=5">GALLERY</a></li>
+          <li class="nav-item"><a class="nav-link"[ngClass]="{'active':selection == 6}" (click)="selection=6">CONTACT US</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
